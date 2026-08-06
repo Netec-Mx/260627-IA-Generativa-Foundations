@@ -297,14 +297,19 @@ Ticket:
 {ticket_ejemplo}
 
 Responde ÚNICAMENTE con un objeto JSON con esta estructura exacta:
+{% raw %}
+```python
+Responde ÚNICAMENTE con un objeto JSON con esta estructura exacta:
+
 {{
-  "categoria": "<una de: {', '.join(CATEGORIAS_VALIDAS)}>",
-  "prioridad": "<alta|media|baja>",
-  "equipo_destino": "<nombre del equipo que debe atender>",
-  "resumen_una_linea": "<máximo 15 palabras>"
+    "categoria": "<una de: {', '.join(CATEGORIAS_VALIDAS)}>",
+    "prioridad": "<alta|media|baja>",
+    "equipo_destino": "<nombre del equipo que debe atender>",
+    "resumen_una_linea": "<máximo 15 palabras>"
 }}
 
 No incluyas texto antes ni después del JSON."""
+{% endraw %}
 
 respuesta_v4 = llamar_modelo(prompt_v2_sistema, prompt_v4_usuario)
 print("=== RESPUESTA V4 (+ Formato JSON) ===")
