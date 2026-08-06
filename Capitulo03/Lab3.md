@@ -280,12 +280,12 @@ Ticket:
 {ticket_ejemplo}
 
 Responde ÚNICAMENTE con un objeto JSON con esta estructura exacta:
-{
+{{
   "categoria": "<una de: {', '.join(CATEGORIAS_VALIDAS)}>",
   "prioridad": "<alta|media|baja>",
   "equipo_destino": "<nombre del equipo que debe atender>",
   "resumen_una_linea": "<máximo 15 palabras>"
-}
+}}
 
 No incluyas texto antes ni después del JSON."""
 
