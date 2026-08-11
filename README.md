@@ -21,13 +21,13 @@ Curso práctico y conciso que explica principios de GenAI, LLMs, prompting y RAG
 
 ### Capítulo 3
 
-- [construir y probar técnicas de few-shot, zero-shot, uso de documentos y validación de salidas](Capitulo03/README.md#construir-y-probar-técnicas-de-few-shot-zero-shot-uso-de-documentos-y-validación-de-salidas)
+- [construir y probar técnicas de few-shot, zero-shot, uso de documentos y validación de salidas](Capitulo03/Lab3.md)
   - Descripción: Realizar la práctica Práctica 3. construir y probar técnicas de few-shot, zero-shot, uso de documentos y validación de salidas aplicando los conceptos del capítulo.
   - Duración estimada: 84 min
 
 ### Capítulo 4
 
-- [pipeline de ingestión y creación de índice vectorial](Capitulo04/README.md#pipeline-de-ingestión-y-creación-de-índice-vectorial)
+- [pipeline de ingestión y creación de índice vectorial](Capitulo04/Lab4.md)
   - Descripción: Realizar la práctica Práctica 4. pipeline de ingestión y creación de índice vectorial aplicando los conceptos del capítulo.
   - Duración estimada: 72 min
 
