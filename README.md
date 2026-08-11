@@ -4,9 +4,6 @@
 
 Curso práctico y conciso que explica principios de GenAI, LLMs, prompting y RAG
 
-## Estructura
-
-- `CapituloXX/README.md`: guía de laboratorio por capítulo.
 
 ## Lista de laboratorios
 
