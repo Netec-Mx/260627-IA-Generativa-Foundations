@@ -244,8 +244,8 @@ scores_v2 = {
 }
 print(f"Puntuación V2: {evaluar_prompt(scores_v2)}/10")
 ```
-
 ```python
+{% raw %}
 # Celda 5: Versión 3 — Agregar TAREA específica y CATEGORÍAS definidas
 CATEGORIAS_VALIDAS = ["acceso/autenticación", "rendimiento", "error_funcional", 
                        "solicitud_nueva_función", "facturación", "otro"]
@@ -261,6 +261,7 @@ Ticket a clasificar:
 respuesta_v3 = llamar_modelo(prompt_v3_sistema, prompt_v3_usuario)
 print("=== RESPUESTA V3 (+ Tarea específica + Categorías) ===")
 print(respuesta_v3)
+{% endraw %}
 
 scores_v3 = {
     "especificidad_tarea": 8,
