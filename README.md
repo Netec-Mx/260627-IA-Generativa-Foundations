@@ -15,7 +15,7 @@ Curso práctico y conciso que explica principios de GenAI, LLMs, prompting y RAG
 
 ### Capítulo 2
 
-- [experimentos con tokens, temperatura, embeddings y comparativa de modelos](Capitulo02/README.md#experimentos-con-tokens-temperatura-embeddings-y-comparativa-de-modelos)
+- [experimentos con tokens, temperatura, embeddings y comparativa de modelos](Capitulo02/Lab2.md)
   - Descripción: Realizar la práctica Práctica 2. experimentos con tokens, temperatura, embeddings y comparativa de modelos aplicando los conceptos del capítulo.
   - Duración estimada: 27 min
 
