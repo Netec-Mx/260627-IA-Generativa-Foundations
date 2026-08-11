@@ -274,6 +274,8 @@ print(f"Puntuación V3: {evaluar_prompt(scores_v3)}/10")
 ```
 
 ```python
+```python
+{% raw %}
 # Celda 6: Versión 4 — Agregar FORMATO DE SALIDA estructurado (JSON)
 prompt_v4_usuario = f"""Clasifica el siguiente ticket de soporte técnico.
 
@@ -309,6 +311,7 @@ scores_v4 = {
     "restricciones_claras": 7
 }
 print(f"Puntuación V4: {evaluar_prompt(scores_v4)}/10")
+{% endraw %}
 ```
 
 ```python
@@ -364,6 +367,7 @@ scores_v5 = {
     "restricciones_claras": 9
 }
 print(f"Puntuación V5: {evaluar_prompt(scores_v5)}/10")
+
 ```
 
 ```python
