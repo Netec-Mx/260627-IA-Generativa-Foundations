@@ -11,7 +11,7 @@ Curso práctico y conciso que explica principios de GenAI, LLMs, prompting y RAG
 
 - [mapa de oportunidades y riesgos en un caso real](Capitulo01/Lab1.md)
   - Descripción: Realizar la práctica Práctica 1.  mapa de oportunidades y riesgos en un caso real aplicando los conceptos del capítulo.
-  - Duración estimada: 24 min
+  - Duración estimada: 30 min
 
 ### Capítulo 2
 
